@@ -1,0 +1,16 @@
+.carousel-caption a{
+    text-decoration: none;
+    color: white;
+    font-size:70px;
+    :hover{
+        color:#19227D
+    }
+  
+}
+.carousel-caption   p{
+    font-size: 5px;
+    padding-top: 10px;
+}
+.carousel-item img{
+    filter: brightness(30%);
+}
