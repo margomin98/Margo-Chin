@@ -2,10 +2,17 @@
     text-decoration: none;
     color: white;
     font-size:70px;
+   h5{
+    margin:0;
+   }
     :hover{
-        color:#19227D
-    }
-  
+        transition: all 0.5s ease-in-out;
+        color: #f3d9c9;
+        border-bottom: 2px outset #f3d9c9;
+        transform: scale(1.2);
+        width: 200px;
+        margin: auto;
+}
 }
 .carousel-caption   p{
     font-size: 5px;

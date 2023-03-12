@@ -6,7 +6,7 @@
 
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
   
@@ -15,6 +15,9 @@ img {
       color: #19227D;
       
     }
+    a:hover{
+    color:unset !important
+  }
 
     .logo{
       width: 160px;
@@ -27,6 +30,7 @@ img {
     }
     .nav-link,.dropdown-item{
       color: #19227D !important ;
+     
       }
       
 .dropdown-menu{
@@ -36,6 +40,8 @@ img {
 
 .dropdown-item:hover{
   background-color: #FFEFE5;
+   transition: all ease-out 0.5s;
+  color: #b0b5e4 !important;
 }
 
 
