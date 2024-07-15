@@ -6530,8 +6530,7 @@ a.close.disabled {
   float: left;
   width: 100%;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -13584,10 +13583,6 @@ i {
   padding: 0 20px 20px;
 }
 
-.modal-content {
-  border-radius: 100px 100px 0 0 !important;
-}
-
 .modal-header {
   border-bottom: unset !important;
 }
@@ -13621,7 +13616,7 @@ i {
 }
 
 .carousel-caption p {
-  font-size: 5px;
+  font-size: 18px;
   padding-top: 10px;
 }
 
@@ -13674,7 +13669,7 @@ a:hover {
   .contact {
     padding-bottom: 30px;
   }
-  .drink, .cup, .product, .can, .bag, .bee, .acrylic, .jewerly1, .jewerly2, .page1, .page2, .report {
+  .drink, .cup, .product, .can, .bag, .bee, .acrylic, .jewerly1, .jewerly2, .page1, .page2, .report, .lg2 {
     padding-top: 5px;
   }
   .perfume {
